@@ -23,3 +23,17 @@
   height: 60px;
   width: 60px;
 }
+
+.text__overlay {
+  left: 70%;
+  position: absolute;
+  width: 30%;
+  height: inherit;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.text__overlay > p {
+  opacity: 1;
+  color: white;
+}

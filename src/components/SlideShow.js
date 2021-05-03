@@ -6,7 +6,7 @@ import "./SlideShow.css";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
-function SlideShow({ slide, setcurrentId, currentId, text }) {
+function SlideShow({ slide, setcurrentId, currentId }) {
   // useEffect(() => {
   //   const audio = new Audio(`audio/${slide.audio}`);
   //   audio.play();
@@ -30,7 +30,7 @@ function SlideShow({ slide, setcurrentId, currentId, text }) {
 
       <img src={`image/${slide.image}`} alt="" />
       <div className="text__overlay">
-        <p>{text}</p>
+        <p>{slide.text}</p>
       </div>
 
       <ReactAudioPlayer src={`audio/${slide.audio}`} autoPlay />
