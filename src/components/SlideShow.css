@@ -1,0 +1,25 @@
+.slideShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slideShow > img {
+  max-height: 400px;
+  width: 100%;
+  /*object-fit: contain;
+  margin-bottom: 15px; */
+  vertical-align: middle;
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+.slideShow__nav {
+  color: black;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.slideShow__button__container {
+  height: 60px;
+  width: 60px;
+}
